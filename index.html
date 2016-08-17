@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="node_modules/money/money.js"></script>
+
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+<!-- <section ng-controller="quotesCtrl"> -->
+    <nav class = "navbar navbar-default navbar-fixed-top dash">
+      <h2>Global Dashboard</h2>
+
+      <ul id="my-tree">
+        <li>
+          <a href="#developed">Developed Markets</a>
+        </li>
+        <li>
+          <a href="#emerging">Emerging Markets</a>
+        </li>
+
+      </ul>
+
+    </nav><br>
+
+    <a name="developed"></a>
+
+    <h3 class="name">Developed Markets</h3>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 Aus country">
+        <div class="text">
+          <div id='name'></div>
+          <div id='ticker'></div>        
+          <div id='result'></div>
+          <div id='time'></div>
+          <div id='change'></div>
+          <div id='percent'></div>
+          <div id='fx-AUD'></div>
+        </div>
+        </div>
+        <div class="col-md-4 Canada country">
+        <div class="text">
+          <div id='name1'></div>
+          <div id='ticker1'></div>
+          <div id='result1'></div>
+          <div id='time1'></div>
+          <div id='change1'></div>
+          <div id='percent1'></div>
+          <div id='fx-CAD'></div>
+        </div>
+        </div>
+        <div class="col-md-4 Germany country">
+        <div class="text">
+          <div id='name2'></div>
+          <div id='ticker2'></div>
+          <div id='result2'></div>
+          <div id='time2'></div>
+          <div id='change2'></div>
+          <div id='percent2'></div>
+          <div class='fx-EUR'></div>
+        </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 UK country">
+        <div class="text">
+          <div id='name3'></div>   
+          <div id='ticker3'></div>     
+          <div id='result3'></div>
+          <div id='time3'></div>
+          <div id='change3'></div>
+          <div id='percent3'></div>
+          <div id='fx-GBP'></div>
+        </div>
+        </div>
+        <div class="col-md-4 Japan country">
+        <div class="text">
+          <div id='name4'></div>
+          <div id='ticker4'></div>
+          <div id='result4'></div>
+          <div id='time4'></div>
+          <div id='change4'></div>
+          <div id='percent4'></div>
+          <div id='fx-JPY'></div>
+        </div>
+        </div>
+        <div class="col-md-4 Swiss country">
+        <div class="text">
+          <div id='name15'></div>
+          <div id='ticker15'></div>
+          <div id='result15'></div>
+          <div id='time15'></div>
+          <div id='change15'></div>
+          <div id='percent15'></div>
+          <div id='fx-CHF'></div>
+        </div>
+        </div>
+    </div>    
+    <div class="row">
+        <div class="col-md-4 Spain country">
+          <div class="text">
+          <div id='name10'></div>   
+          <div id='ticker10'></div>     
+          <div id='result10'></div>
+          <div id='time10'></div>
+          <div id='change10'></div>
+          <div id='percent10'></div>
+          <div class='fx-EUR'></div>
+         </div> 
+        </div>
+        <div class="col-md-4 France country">
+        <div class="text">
+          <div id='name11'></div>
+          <div id='ticker11'></div>
+          <div id='result11'></div>
+          <div id='time11'></div>
+          <div id='change11'></div>
+          <div id='percent11'></div>
+          <div class='fx-EUR'></div>
+         </div> 
+        </div>
+        <div class="col-md-4 Italy country">
+        <div class="text">
+          <div id='name9'></div>
+          <div id='ticker9'></div>
+          <div id='result9'></div>
+          <div id='time9'></div>
+          <div id='change9'></div>
+          <div id='percent9'></div>
+          <div class='fx-EUR'></div>
+         </div> 
+        </div>
+    </div>
+   </div>
+   
+   <a name="emerging">
+
+    <h3 class="name1">Emerging Markets</h3>
+
+
+   <div class="container"> 
+    <div class="row">
+        <div class="col-md-4 Indo country">
+        <div class="text">
+          <div id='name6'></div>   
+          <div id='ticker6'></div>     
+          <div id='result6'></div>
+          <div id='time6'></div>
+          <div id='change6'></div>
+          <div id='percent6'></div>
+          <div id='fx-IDR'></div>
+        </div>
+        </div>
+        <div class="col-md-4 India country">
+        <div class="text">
+          <div id='name7'></div>
+          <div id='ticker7'></div>
+          <div id='result7'></div>
+          <div id='time7'></div>
+          <div id='change7'></div>
+          <div id='percent7'></div>
+          <div id='fx-INR'></div>
+        </div>  
+        </div>
+        <div class="col-md-4 China country">
+        <div class="text">
+          <div id='name8'></div>
+          <div id='ticker8'></div>
+          <div id='result8'></div>
+          <div id='time8'></div>
+          <div id='change8'></div>
+          <div id='percent8'></div>
+          <div id='fx-CNY'></div>
+        </div>
+        </div>
+    </div>
+      <div class="row">
+        <div class="col-md-4 Turkey country">
+        <div class="text">
+          <div id='name12'></div>     
+          <div id='ticker12'></div>   
+          <div id='result12'></div>
+          <div id='time12'></div>
+          <div id='change12'></div>
+          <div id='percent12'></div>
+          <div id='fx-TRY'></div>
+        </div>
+        </div>
+        <div class="col-md-4 Russia country">
+        <div class="text">
+          <div id='name13'></div>
+          <div id='ticker13'></div>
+          <div id='result13'></div>
+          <div id='time13'></div>
+          <div id='change13'></div>
+          <div id='percent13'></div>
+          <div id='fx-RUB'></div>
+        </div>  
+        </div>
+        <div class="col-md-4 SoAf country">
+        <div class="text">
+          <div id='name14'></div>
+          <div id='ticker14'></div>
+          <div id='result14'></div>
+          <div id='time14'></div>
+          <div id='change14'></div>
+          <div id='percent14'></div>
+          <div id='fx-ZAR'></div>
+        </div>
+        </div>
+    </div>
+        <div class="row">
+        <div class="col-md-4 Brazil country">
+        <div class="text">
+          <div id='name5'></div>
+          <div id='ticker5'></div>
+          <div id='result5'></div>
+          <div id='time5'></div>
+          <div id='change5'></div>
+          <div id='percent5'></div>
+          <div id='fx-BRL'></div>
+        </div>
+        </div>
+    </div>
+      
+<script src="node_modules/angular/angular.js"></script>
+<script src="script.js"></script>
+
+
+</body>
+</html>
+

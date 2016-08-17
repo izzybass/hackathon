@@ -1,0 +1,127 @@
+.dash {
+  background-color: grey;
+  height: 85px;
+}
+
+h2 {
+  text-align: center;
+}
+li {
+  display: inline-block;
+  padding-right: 20px;
+}
+a {
+  color: black;
+}
+.name {
+  padding-top: 100px;
+  color: black;
+  font-size: 24px;
+}
+
+.name1 {
+ padding-top: 75px;
+  color: black;
+  font-size: 24px;  
+}
+body {
+    background-image:url('http://images.all-free-download.com/images/graphiclarge/business_cash_coin_264276.jpg');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+.country {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+    
+}
+.text {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+  background-color: white;
+  opacity: 0.80;
+}
+.Aus {
+  background-image: url("http://flaglane.com/download/australian-flag/australian-flag-medium.gif");
+  background-size: 100% auto;
+}
+.Canada {
+  background-image: url("http://flaglane.com/download/canadian-flag/canadian-flag-medium.gif");
+  background-size: 100% auto;
+}
+.Germany {
+  background-image: url("http://flaglane.com/download/german-flag/german-flag-medium.gif");
+  background-size: 100% auto;
+}
+.UK {
+  background-image: url("http://flaglane.com/download/british-flag/british-flag-medium.gif");
+  background-size: 100% auto;
+}
+.Japan {
+  background-image: url("http://flaglane.com/download/japanese-flag/japanese-flag-medium.gif");
+  background-size: 100% auto;
+}
+.Brazil {
+  background-image: url("http://flaglane.com/download/brazilian-flag/brazilian-flag-medium.gif");
+  background-size: 100% auto;
+}
+.Indo {
+  background-image: url("http://flaglane.com/download/indonesian-flag/indonesian-flag-medium.gif");
+  background-size: 100% auto;
+}
+.India {
+  background-image: url("http://flaglane.com/download/indian-flag/indian-flag-medium.gif");
+  background-size: 100% auto;
+}
+.China {
+  background-image: url("http://flaglane.com/download/chinese-flag/chinese-flag-medium.gif");
+  background-size: 100% auto;
+}
+.Spain {
+  background-image: url("http://flaglane.com/download/spanish-flag/spanish-flag-medium.gif");
+  background-size: 100% auto;
+}
+.France {
+  background-image: url("http://flaglane.com/download/french-flag/french-flag-medium.gif");
+  background-size: 100% auto;
+}
+.Italy {
+  background-image: url("http://flaglane.com/download/italian-flag/italian-flag-medium.gif");
+  background-size: 100% auto;
+}
+ .Turkey {
+  background-image: url("http://flaglane.com/download/turkish-flag/turkish-flag-medium.gif");
+  background-size: 100% auto;
+}
+.Russia {
+  background-image: url("http://flaglane.com/download/russian-flag/russian-flag-medium.gif");
+  background-size: 100% auto;
+}
+.SoAf {
+  background-image: url("http://flaglane.com/download/south-african-flag/south-african-flag-medium.gif");
+  background-size: 100% auto;
+}
+.Swiss{
+  background-image: url("http://flaglane.com/download/swiss-flag/swiss-flag-medium.gif");
+  background-size: 100% auto;
+}
+.container {
+  padding-top: 25px;
+
+}
+.row:before {
+  display: table;
+  content: "";
+  padding-top: 20px;
+}
+
+.row:after {
+  display: table;
+  content: "";
+  clear: both;
+} 
